@@ -1,5 +1,5 @@
-#define BLYNK_TEMPLATE_ID "TMPL3sCsfzQVe"
-#define BLYNK_TEMPLATE_NAME "FIRE ALARM IOT"
+#define BLYNK_TEMPLATE_ID "BLYNK ID"
+#define BLYNK_TEMPLATE_NAME "BLYNK NAME"
 #define BLYNK_PRINT Serial
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
@@ -8,15 +8,15 @@
 // WiFi Credentials
 #define WIFI_SSID ""
 #define WIFI_PASSWORD ""
-char auth[] = "v8jASXuH7h-1eBMpRvM54_hDk-pkXAd5";  // Blynk Auth Token
-char ssid[] = "IOT";  // Your WiFi SSID
-char pass[] = "IOT12345";  // Your WiFi password
+char auth[] = "";  // Blynk Auth Token
+char ssid[] = "";  // Your WiFi SSID
+char pass[] = "";  // Your WiFi password
 // SMTP Credentials
 #define SMTP_HOST "smtp.gmail.com"
 #define SMTP_PORT 465 // SSL port
-#define AUTHOR_EMAIL "ganeshprabhu.ece@gmail.com"
-#define AUTHOR_PASSWORD "ovzr mwod xyew ipkn"
-#define RECIPIENT_EMAIL "firedetectionnotification@gmail.com"
+#define AUTHOR_EMAIL "" //SENDER MAIL ID
+#define AUTHOR_PASSWORD "" //SENDER MAIL APP PASSWORD
+#define RECIPIENT_EMAIL "" RECEIVER MAIL ID
 #define firesensor D5  // Fire sensor connected to pin D5
 #define alarm D6  // Alarm connected to pin D6
 #define led D7  // LED connected to pin D7
