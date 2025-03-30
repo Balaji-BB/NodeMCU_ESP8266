@@ -2,9 +2,9 @@
  * Blynk Credentials
  */
 #define BLYNK_PRINT Serial
-#define BLYNK_TEMPLATE_ID "TMPL3Vs3kd1oT"
-#define BLYNK_TEMPLATE_NAME "Home Automation"
-#define BLYNK_AUTH_TOKEN "11QskSaWE4nsvu_xP-UusSW3VAKLbHs8"
+#define BLYNK_TEMPLATE_ID "Your own Blynk ID"
+#define BLYNK_TEMPLATE_NAME "Your own Blynk Template"
+#define BLYNK_AUTH_TOKEN "Your own Blynk Auth Token"
 //#define BLYNK_TEMPLATE_ID "TMPL389NBaJtN"
 //#define BLYNK_TEMPLATE_NAME "Home Automation"
 //#define BLYNK_AUTH_TOKEN "ARQfutgPDyiYNBUTN4wU7aJmXJzSn3wR"
