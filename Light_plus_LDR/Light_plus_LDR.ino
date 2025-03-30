@@ -37,9 +37,9 @@ uint16_t LIGHT_INTENSITY = 50;
 //#define BLYNK_TEMPLATE_ID           "TMPxxxxxx"
 //#define BLYNK_TEMPLATE_NAME         "Device"
 //#define BLYNK_AUTH_TOKEN            "YourAuthToken"
-#define BLYNK_TEMPLATE_ID "TMPL389NBaJtN"
-#define BLYNK_TEMPLATE_NAME "Home Automation"
-#define BLYNK_AUTH_TOKEN "ARQfutgPDyiYNBUTN4wU7aJmXJzSn3wR"
+#define BLYNK_TEMPLATE_ID "Your own ID"
+#define BLYNK_TEMPLATE_NAME "Your own Name"
+#define BLYNK_AUTH_TOKEN "Your own Auth Token"
 
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
