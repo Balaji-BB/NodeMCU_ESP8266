@@ -2,15 +2,15 @@
 #include <ESP_Mail_Client.h>
 
 // WiFi Credentials
-#define WIFI_SSID "Airtel_Embedded_home"
-#define WIFI_PASSWORD "Embedded@1298"
+#define WIFI_SSID "Your own SSID"
+#define WIFI_PASSWORD "Your own Password"
 
 // SMTP Credentials
 #define SMTP_HOST "smtp.gmail.com"
 #define SMTP_PORT 465 // SSL port
-#define AUTHOR_EMAIL "bala7.bbi@gmail.com"
-#define AUTHOR_PASSWORD "dgwp dhel qedy zxzl"
-#define RECIPIENT_EMAIL "firedetectionnotification@gmail.com"
+#define AUTHOR_EMAIL "SENDER MAIL ID"
+#define AUTHOR_PASSWORD "SENDER MAIL APP PASSWORD"
+#define RECIPIENT_EMAIL "RECEIVER MAIL ID"
 
 // SMTP Session
 SMTPSession smtp;
